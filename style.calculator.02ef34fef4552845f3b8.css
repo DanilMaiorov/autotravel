@@ -1,6 +1,1555 @@
 @import url(https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Exo+2:wght@500;700;900&display=swap);
-*,::before,::after{margin:0;padding:0;box-sizing:border-box}html{line-height:1;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:62.5%}body,html{height:100%;min-width:32rem}main{display:block}a{text-decoration:none;background-color:rgba(0,0,0,0)}h1,h2,h3,h4,h5,h6,p{margin:0}ul,ol,li{list-style-type:none;margin:0;padding:0}hr{box-sizing:content-box;height:0;overflow:visible}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}body{font-family:"Mulish",sans-serif;font-size:1.6rem;line-height:2.2rem;font-weight:400;color:#333;background-color:#fff}img{width:100%;max-width:2rem;-o-object-fit:cover;object-fit:cover;display:block}.wrapper{min-height:100%;display:flex;flex-direction:column;overflow:hidden}.wrapper>main{flex:1 1 auto}.container{max-width:132em;width:100%;margin:0 auto;padding:0 2rem}.inner{padding:5.5rem 0}.text__content{font-size:1.8rem;line-height:2.3rem}.title{font-family:"Exo 2",sans-serif;display:inline-block;font-size:3.4rem;line-height:4.1rem;text-transform:uppercase;font-weight:700;color:#014493}.chunk-title{font-family:"Exo 2",sans-serif;font-weight:700;font-size:4rem;line-height:4.8rem;text-transform:uppercase;color:#014493}.button{outline:none;border:none;cursor:pointer;border-radius:1rem;padding:0 5.9rem;font-weight:500;text-transform:uppercase;background-color:#ff2219;color:#fff}.form__input-name{margin:3rem 0 2rem 0}.form__textarea{margin:2rem 0 3rem 0;height:9rem;resize:vertical}.form__button{width:30rem;height:5rem;margin:0 auto;font-family:"Manrope",sans-serif;background-color:#ff2219;font-weight:400;font-size:2rem;line-height:2.7rem;color:#fff;margin-bottom:2rem}.form__descr{font-family:"Manrope",sans-serif;font-size:1.2rem;line-height:1.6rem;text-align:center;color:#333}form input,textarea{border-radius:1rem;outline:none;border:none;padding:1.3rem 0 1.3rem 3.2rem}input::-moz-placeholder, textarea::-moz-placeholder{font-family:"Manrope",sans-serif;font-size:1.8rem;line-height:2.5rem;color:rgba(51,51,51,.5)}input::placeholder,textarea::placeholder{font-family:"Manrope",sans-serif;font-size:1.8rem;line-height:2.5rem;color:rgba(51,51,51,.5)}.header{width:100%;background-color:#014493}.header__inner{font-family:"Manrope",sans-serif;font-weight:500;display:flex;align-items:center}.header__logo{padding:1.8rem 0 1.2rem 0}.header__logo img{max-width:18.8rem}.header__content{display:flex;justify-content:space-between;flex:1 1 100%;align-items:center;margin-left:9.2rem}.header__menu-list{display:flex;gap:5rem}.header__menu-link{color:#fff}.header__social{display:flex;align-items:center}.header__social-list{display:flex;gap:1.6rem}.header__email-link{margin-right:4rem;color:#fff}.header__social-link{width:3.6rem;height:3.6rem;background-color:#fff;display:flex;align-items:center;justify-content:center;border-radius:50%}.calculator .container{padding:0 10rem}.calculator__inner{padding:8rem 0}.calculator__block{display:flex;gap:3rem}.calculator__selects{display:flex;gap:2rem;flex:1 1 60%;margin-bottom:3rem}.calculator__fields{padding:5rem 6rem 3rem 6rem;flex:1 1 40%;border-radius:1rem;background-color:#7e7e7e}.calculator__fields-title{color:#fff;text-align:center;font-family:"Manrope",sans-serif;font-weight:700;font-size:2.8rem;line-height:3.8rem}.calculator__fields-day-price{margin:2rem 0;color:#fff;font-size:2rem}.calculator__fields-day-price--span{padding-left:1rem;color:#014493;font-size:3rem;font-weight:700}.calculator__fields-day-amount{color:#fff;font-size:2rem;display:flex}.calculator__fields-day-amount input{margin-left:1rem;border-radius:1rem;outline:none;border:none;padding:.5rem;width:7rem;color:#014493;font-size:3rem;font-weight:700}.calculator__fields-guarantie{margin:2rem 0;color:#fff;font-size:2rem;display:flex}.calculator__fields-guarantie--span{color:#014493;font-size:3rem;font-weight:700;padding-left:1rem}.calculator__button{height:5rem;margin:0 auto;display:block}.calculator__fields-total{margin-top:2rem;color:#fff;font-size:2rem}.calculator__fields-total--span{color:#014493;font-size:3rem;font-weight:700;padding-left:1rem}.select__classes{flex:1 1 50%;position:relative}.select__classes-button{width:100%;position:relative;display:block;-moz-text-align-last:left;text-align-last:left;border-radius:6px;background-color:#fff;border:1px solid #7e9bbd;height:46px;padding:13px 20px;cursor:pointer}.select__classes-button:focus,.select__classes-button--active{border:1px solid red}.select__classes-list{display:none;position:absolute;top:5.2rem;left:0;background-color:#7e9bbd;overflow:hidden;width:20%;z-index:1}.select__classes-list--visible{display:block;width:100%}.select__classes-list-item{border:1px solid #000;overflow:hidden;border-radius:6px;border-bottom:0;padding:1.3rem 2rem;cursor:pointer}.select__classes-list-item:first-child{border-radius:6px 6px 0 0}.select__classes-list-item:last-child{border-bottom:1px solid #000;border-radius:0 0 6px 6px}.select__classes-list-item:hover{background-color:#f0f8ff}.select__input-class{z-index:-1;position:absolute;visibility:hidden}.select__cars{flex:1 1 50%;position:relative;display:none}.select__cars--visible{display:block}.select__cars-button{width:100%;position:relative;display:block;-moz-text-align-last:left;text-align-last:left;border-radius:6px;background-color:#fff;border:1px solid #7e9bbd;height:46px;padding:13px 20px;cursor:pointer}.select__cars-button:focus,.select__cars-button--active{border:1px solid red}.select__cars-list{display:none;position:absolute;top:5.2rem;left:0;background-color:#7e9bbd;overflow:hidden;width:20%;z-index:1}.select__cars-list--visible{display:block;width:100%}.select__cars-list-item{border:1px solid #000;overflow:hidden;border-radius:6px;border-bottom:0;padding:1.3rem 2rem;cursor:pointer}.select__cars-list-item:first-child{border-radius:6px 6px 0 0}.select__cars-list-item:last-child{border-bottom:1px solid #000;border-radius:0 0 6px 6px}.select__cars-list-item:hover{background-color:#f0f8ff}.select__input-price,.select__input-guarantie{z-index:-1;position:absolute;visibility:hidden}.footer{background-color:#014493;width:100%}.footer a{color:#fff}.footer__inner{font-family:"Manrope",sans-serif;font-weight:500;display:flex;align-items:center}.footer__logo{padding:4.2rem 0 4.8rem 0}.footer__logo img{max-width:18.8rem}.footer__content{display:flex;justify-content:space-between;flex:1 1 100%;align-items:center;margin-left:9.2rem}.footer__menu{position:relative}.footer__menu-list{display:flex;gap:5rem}.footer__social{display:flex;position:relative;line-height:3.2rem}.footer__social-list{display:flex;gap:1.6rem}.footer__social-link{width:3.6rem;height:3.6rem;background-color:#fff;display:flex;align-items:center;justify-content:center;border-radius:50%}.footer__email-link{margin-right:4rem}.footer__phone-link{position:absolute;bottom:-2rem;left:0}.footer .footer__menu-link--bottom{font-weight:400;font-size:1.4rem;line-height:1.9rem;color:#4f89cd;position:absolute;top:4.2rem}@media(max-width: 1200px){.header__logo img{max-width:16rem}.header__content{margin-left:7rem}.header__menu-list{gap:4rem}.header__email-link{margin-right:3rem}.intro{background-position:bottom}.intro__inner{padding:9.2rem 0 15.4rem 0}.intro__text{max-width:43rem}.intro__text br{display:none}.intro-contacts{background-size:50%}.intro-contacts__text-block{max-width:55rem}.intro-contacts__text-block br{display:none}.rates__cards,.cars__cards{flex-wrap:wrap;justify-content:center}.rates__cards-item,.rates__cards-viewall{flex:0 1 29rem;justify-content:center}.rates__item-image img{width:100%}.footer__logo img{max-width:16rem}.footer__content{margin-left:7rem}.footer__menu-list{gap:4rem}.footer__email-link{margin-right:3rem}}@media(max-width: 1100px){.header__logo img{max-width:14rem}.header__content{margin-left:6rem}.header__menu,.header__email-link{font-size:1.4rem}.advantages__content{gap:5.5rem}.terms__caption{font-size:2rem}.feedback__image{margin-right:1.6rem}.footer__logo img{max-width:14rem}.footer__content{margin-left:6rem}.footer__menu,.footer__email-link{font-size:1.4rem}}@media screen and (max-width: 991px){.header__content{justify-content:flex-end;gap:4rem}.header__menu{position:fixed;top:0;left:100%;height:100%;width:100%;background-color:#014493;padding:8rem 2.7rem 0 0;display:flex;justify-content:flex-end;transition:all .4s ease;overflow:auto}.header__menu.active{left:0%}.header__menu-list{flex-direction:column;align-items:flex-end;gap:4rem;padding:3rem 0}.header__list-item{padding:0}.header__menu{font-size:3rem}.advantages__content{flex-wrap:wrap;justify-content:center}.advantages__item{flex:0 0 40%}.autopark__content{flex-wrap:wrap;justify-content:center}.autopark__item{flex:0 1 45%}.autopark__item-image img{width:100%}.autopark__item-params{font-size:2.2rem;line-height:3.2rem}.param-left--title{font-size:3rem;line-height:3.8rem}.autopark__item-price{font-size:2.8rem;line-height:3.5rem}.autopark__item-price--num{font-size:3.6rem;line-height:4.6rem}.autopark__item-class{font-size:1.8rem;line-height:2.6rem}.terms__caption{font-size:2.2rem}.terms__content{flex-wrap:wrap;gap:2rem}.terms__item{flex:1 1 100%}.feedback__image{flex:0 0 9.4rem;margin-right:2.6rem}.feedback__content{grid-template-columns:repeat(2, minmax(29rem, 50%));gap:2rem 3rem}.footer__inner{padding-bottom:4rem}.footer__content{margin-left:0;flex-direction:column;align-items:flex-end}.footer__menu-list{padding:3rem 0 4rem 0}.footer .footer__menu-link--bottom{top:6rem;left:25%;display:inline-block;width:100%}.contacts__inner{flex-direction:column-reverse}.contacts__form{margin:0 auto;width:100%;max-width:62rem}.contacts__info{display:flex;justify-content:center;gap:3rem;margin-left:0}.plans__item-title{padding:2rem 0 2rem 2rem}.plans-row{padding:2rem 1rem 2rem 2rem}.plans__econom-head,.plans__middle-head,.plans__business-head,.plans__cross-head,.plans__minivan-head,.plans__car-name,.plans__car-year,.plans__car-days{font-size:1.6rem;line-height:2rem}.cars-autopark__content{grid-template-columns:repeat(4, minmax(14rem, 25%))}.cars-autopark__item-param .param-left--title{font-size:1.8rem;line-height:2.5rem}}@media screen and (max-width: 850px){.plans__econom-head,.plans__middle-head,.plans__business-head,.plans__cross-head,.plans__minivan-head,.plans__car-name,.plans__car-year,.plans__car-days{font-size:1.4rem;line-height:2rem}.cars__cards-item,.cars__cards-viewall{flex:0 1 30rem}.cars-autopark__item-param .param-left--title{font-size:1.6rem;line-height:2.2rem}}@media screen and (max-width: 767px){.intro__inner{padding:7rem 0 12rem 0}.intro__location{flex-wrap:wrap}.intro__location-list{margin-top:1rem;font-size:1.4rem;line-height:1.8rem}.intro__title{font-size:3rem;line-height:3.8rem}.intro__subtitle{font-size:2rem;line-height:2.8rem}.intro-contacts__location{flex-wrap:wrap}.intro-contacts__location-list{margin-top:1rem;font-size:1.4rem;line-height:1.8rem}.intro__title{font-size:3rem;line-height:3.8rem}.advantages__content{gap:4.5rem}.autopark__item-params{font-size:2rem;line-height:3rem}.param-left--title{font-size:2.4rem;line-height:3rem}.autopark__item-price{font-size:2.4rem;line-height:3rem}.autopark__item-price--num{font-size:3.2rem;line-height:4rem}.autopark__item-class{font-size:1.6rem;line-height:2.2rem}.feedback__content{grid-template-columns:repeat(1, minmax(29rem, 100%));gap:2rem 3rem}.form{margin:0 auto}.connect__inner{padding:4rem}.contacts__inner{padding-bottom:5.5rem}.intro-contacts__inner{padding:4.7rem 0 0 0}.plans__title{margin-bottom:4rem}.intro-plans__inner,.intro-cars__inner{padding:4.7rem 0 4.7rem 0}.plans__item-title{font-size:1.8rem;line-height:2.4rem}.plans-row{display:grid;grid-template-columns:minmax(14rem, 32rem) minmax(9rem, 20rem) repeat(6, minmax(6rem, 12rem));grid-column-gap:.5rem;-moz-column-gap:.5rem;column-gap:.5rem}.plans__econom-head,.plans__middle-head,.plans__business-head,.plans__cross-head,.plans__minivan-head,.plans__car-name,.plans__car-year,.plans__car-days{font-size:1.2rem;line-height:1.8rem}.cars__cards-item,.cars__cards-viewall{flex:0 1 45rem}.cars__item-image{float:left}.cars__cards-viewall{flex-direction:row;justify-content:center;gap:3rem;min-height:17.4rem;padding:3.2rem 2rem}.cars__cards-viewall--img{margin-bottom:0rem}.cars-autopark__content{grid-template-columns:repeat(3, minmax(14rem, 33%))}.cars-autopark__item-param .param-left--title{font-size:1.8rem;line-height:2.5rem}.button.cars-autopark__button{height:4rem;font-size:1.6rem}}@media screen and (max-width: 692px){.plans__econom,.plans__middle,.plans__business,.plans__cross,.plans__minivan{overflow-x:scroll}}@media screen and (max-width: 650px){.container{padding:0 1rem}.text__content{font-size:1.6rem;line-height:2rem}.button{padding:0 4rem}.title{font-size:2.8rem;line-height:3.8rem}.chunk-title{font-size:3.4rem;line-height:4rem}.header__logo img{max-width:12rem}.header__content{margin-left:0}.header__social{flex-direction:column-reverse}.header__email-link{margin:1rem 0 0 0}.header__social-link{width:3rem;height:3rem}.intro__button{height:4rem}.advantages__item{flex:0 0 100%}.advantages__content{gap:3.5rem}.autopark__item{flex:0 1 80%}.autopark__link a::after{width:17.6rem;left:-1rem}.terms__caption{font-size:1.8rem;margin-bottom:2rem}.terms .container{padding:0 3rem}.form__button{width:20rem;height:4rem;font-size:1.8rem;line-height:2.4rem}form input,textarea{padding:.8rem .8rem .8rem 1.2rem}.form{padding:4rem 5rem}.footer__inner{flex-direction:column-reverse}.footer__logo{padding:4.2rem 0 0 0}.footer__social{width:100%;justify-content:center}.footer__phone-link{left:5.5rem}.contacts__form{padding:4rem 5rem}.plans__item{margin-top:4rem}.plans-row{grid-template-columns:minmax(10rem, 32rem) minmax(9rem, 20rem) repeat(6, minmax(6rem, 12rem))}.cars-autopark__content{grid-template-columns:repeat(2, minmax(14rem, 24rem));justify-content:center}.cars-autopark__item-price{font-size:1.6rem}.cars-autopark__item-price--num{font-size:2.4rem}}@media screen and (max-width: 551px){.form__title{font-size:2.2rem;line-height:3rem}.form{padding:3rem 4rem}.form__descr{font-size:1rem;line-height:1.4rem}.form__descr br{display:none}.footer__menu-list{gap:2rem}.footer__phone-link{left:2.5rem}.contacts__info{margin-bottom:3rem}.contacts__info{flex-direction:column;align-items:center;gap:1rem}.contacts__info-text{font-size:2rem;line-height:2.4rem}.contacts__info-worktime{margin-bottom:2rem}.contacts__form{padding:3rem 4rem}.plans__item{margin-top:3rem}.cars-autopark__item-param .param-left--title{font-size:1.6rem;line-height:2.2rem}.popup__wrapper,.rent-popup__wrapper{width:30rem}.popup__window,.rent-popup__window{padding:3rem 2.2rem}.popup__title,.rent-popup__title{font-size:2rem;line-height:2.8rem;margin-bottom:2rem}.rent-popup__calculate-car{font-size:1.8rem}.popup__classes-button,.popup__cars-button{height:4rem;padding:.5rem 1rem;font-size:1rem;line-height:1.4rem;margin-bottom:1rem}.popup__calculate-day-price,.popup__calculate-day-amount,.popup__calculate-guarantie,.rent-popup__calculate-day-price,.rent-popup__calculate-day-amount,.rent-popup__calculate-guarantie{font-size:1.4rem;line-height:2rem;padding-left:0}.popup__calculate-button,.popup-rent__form-button{margin:1rem 0;height:3rem;font-size:1.4rem;line-height:2rem}.popup__calculate-total,.rent-popup__calculate-total{font-size:1.6rem;line-height:2.7rem}.popup-rent__form-name,.popup-rent__form-phone{height:3rem}.popup-rent__form-name input,.popup-rent__form-phone input{padding:.5rem 1rem}}@media screen and (max-width: 468px){.inner{padding:3rem 0}.title{font-size:2.4rem;line-height:3.2rem}.header__logo img{max-width:10rem}.header__social{display:none}.intro__inner{padding:4rem 0 5rem 0}.intro__location{margin-bottom:2.6rem}.intro__location-list{gap:1rem;font-size:1.2rem}.connect__inner{padding:2rem}.form{padding:3rem 2rem 3rem 2rem}.intro__location{margin-bottom:2.6rem}.intro-contacts__location-list{gap:1rem;font-size:1.2rem}.autopark__item{flex:0 1 90%}.contacts__form{padding:3rem 2rem 3rem 2rem}}@media screen and (max-width: 375px){.title{font-size:2rem;line-height:2.6rem}.header__social{display:none}.autopark__item{flex:0 1 100%}.footer__menu,.footer__email-link{width:100%}.footer__menu-list{flex-direction:column;align-items:center}.footer .footer__menu-link--bottom{top:18rem;left:16%;width:70%}.footer__phone-link{left:0}.cars-autopark__item-price{font-size:1.4rem}.cars-autopark__item-price--num{font-size:2rem}.cars-autopark__item-params{font-size:1.2rem}}.burger{display:none;z-index:2}@media(max-width: 991px){.burger{display:block;cursor:pointer;padding:.7rem}.burger__button{position:relative;width:5rem;height:4rem;display:flex;align-items:center;justify-content:center;transition:all .4s}.burger__button-line{display:inline-block;height:.3rem;width:90%;background-color:#fff;border-radius:.3rem;transition:all .4s}.burger__button.active span{transform:scale(0)}.burger__button.active::before{transform:rotate(45deg);top:1.9rem}.burger__button.active::after{transform:rotate(-45deg);bottom:1.8rem}.burger__button::before,.burger__button::after{content:"";position:absolute;height:.3rem;width:90%;background-color:#fff;border-radius:.3rem;transition:all .5s}.burger__button::after{bottom:.6rem}.burger__button::before{top:.6rem}}@media(max-width: 591px){.burger__button-line{width:80%}.burger__button::after{bottom:.8rem;width:80%}.burger__button::before{top:.8rem;width:80%}}@media(max-width: 375px){.burger__button-line{width:70%}.burger__button::after{bottom:1rem;width:70%}.burger__button::before{top:1rem;width:70%}}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%
+}
+
+body,
+html {
+  height: 100%;
+  min-width: 32rem
+}
+
+main {
+  display: block
+}
+
+a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+img {
+  border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff
+}
+
+img {
+  width: 100%;
+  max-width: 2rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden
+}
+
+.wrapper>main {
+  flex: 1 1 auto
+}
+
+.container {
+  max-width: 132em;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem
+}
+
+.inner {
+  padding: 5.5rem 0
+}
+
+.text__content {
+  font-size: 1.8rem;
+  line-height: 2.3rem
+}
+
+.title {
+  font-family: "Exo 2", sans-serif;
+  display: inline-block;
+  font-size: 3.4rem;
+  line-height: 4.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #014493
+}
+
+.chunk-title {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+  color: #014493
+}
+
+.button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0 5.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #ff2219;
+  color: #fff
+}
+
+.form__input-name {
+  margin: 3rem 0 2rem 0
+}
+
+.form__textarea {
+  margin: 2rem 0 3rem 0;
+  height: 9rem;
+  resize: vertical
+}
+
+.form__button {
+  width: 30rem;
+  height: 5rem;
+  margin: 0 auto;
+  font-family: "Manrope", sans-serif;
+  background-color: #ff2219;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #fff;
+  margin-bottom: 2rem
+}
+
+.form__descr {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #333
+}
+
+form input,
+textarea {
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  padding: 1.3rem 0 1.3rem 3.2rem
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(51, 51, 51, .5)
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(51, 51, 51, .5)
+}
+
+.header {
+  width: 100%;
+  background-color: #014493
+}
+
+.header__inner {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center
+}
+
+.header__logo {
+  padding: 1.8rem 0 1.2rem 0
+}
+
+.header__logo img {
+  max-width: 18.8rem
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 100%;
+  align-items: center;
+  margin-left: 9.2rem
+}
+
+.header__menu-list {
+  display: flex;
+  gap: 5rem
+}
+
+.header__menu-link {
+  color: #fff
+}
+
+.header__social {
+  display: flex;
+  align-items: center
+}
+
+.header__social-list {
+  display: flex;
+  gap: 1.6rem
+}
+
+.header__email-link {
+  margin-right: 4rem;
+  color: #fff
+}
+
+.header__social-link {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%
+}
+
+.calculator .container {
+  padding: 0 10rem
+}
+
+.calculator__inner {
+  padding: 8rem 0
+}
+
+.calculator__block {
+  display: flex;
+  gap: 3rem
+}
+
+.calculator__selects {
+  display: flex;
+  gap: 2rem;
+  flex: 1 1 60%;
+  margin-bottom: 3rem
+}
+
+.calculator__fields {
+  padding: 5rem 6rem 3rem 6rem;
+  flex: 1 1 40%;
+  border-radius: 1rem;
+  background-color: #7e7e7e
+}
+
+.calculator__fields-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.8rem
+}
+
+.calculator__fields-day-price {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 2rem
+}
+
+.calculator__fields-day-price--span {
+  padding-left: 1rem;
+  color: #014493;
+  font-size: 3rem;
+  font-weight: 700
+}
+
+.calculator__fields-day-amount {
+  color: #fff;
+  font-size: 2rem;
+  display: flex
+}
+
+.calculator__fields-day-amount input {
+  margin-left: 1rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  padding: .5rem;
+  width: 7rem;
+  color: #014493;
+  font-size: 3rem;
+  font-weight: 700
+}
+
+.calculator__fields-guarantie {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 2rem;
+  display: flex
+}
+
+.calculator__fields-guarantie--span {
+  color: #014493;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 1rem
+}
+
+.calculator__button {
+  height: 5rem;
+  margin: 0 auto;
+  display: block
+}
+
+.calculator__fields-total {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 2rem
+}
+
+.calculator__fields-total--span {
+  color: #014493;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 1rem
+}
+
+.select__classes {
+  flex: 1 1 50%;
+  position: relative
+}
+
+.select__classes-button {
+  width: 100%;
+  position: relative;
+  display: block;
+  -moz-text-align-last: left;
+  text-align-last: left;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #7e9bbd;
+  height: 46px;
+  padding: 13px 20px;
+  cursor: pointer
+}
+
+.select__classes-button:focus,
+.select__classes-button--active {
+  border: 1px solid red
+}
+
+.select__classes-list {
+  display: none;
+  position: absolute;
+  top: 5.2rem;
+  left: 0;
+  background-color: #7e9bbd;
+  overflow: hidden;
+  width: 20%;
+  z-index: 1
+}
+
+.select__classes-list--visible {
+  display: block;
+  width: 100%
+}
+
+.select__classes-list-item {
+  border: 1px solid #000;
+  overflow: hidden;
+  border-radius: 6px;
+  border-bottom: 0;
+  padding: 1.3rem 2rem;
+  cursor: pointer
+}
+
+.select__classes-list-item:first-child {
+  border-radius: 6px 6px 0 0
+}
+
+.select__classes-list-item:last-child {
+  border-bottom: 1px solid #000;
+  border-radius: 0 0 6px 6px
+}
+
+.select__classes-list-item:hover {
+  background-color: #f0f8ff
+}
+
+.select__input-class {
+  z-index: -1;
+  position: absolute;
+  visibility: hidden
+}
+
+.select__cars {
+  flex: 1 1 50%;
+  position: relative;
+  display: none
+}
+
+.select__cars--visible {
+  display: block
+}
+
+.select__cars-button {
+  width: 100%;
+  position: relative;
+  display: block;
+  -moz-text-align-last: left;
+  text-align-last: left;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #7e9bbd;
+  height: 46px;
+  padding: 13px 20px;
+  cursor: pointer
+}
+
+.select__cars-button:focus,
+.select__cars-button--active {
+  border: 1px solid red
+}
+
+.select__cars-list {
+  display: none;
+  position: absolute;
+  top: 5.2rem;
+  left: 0;
+  background-color: #7e9bbd;
+  overflow: hidden;
+  width: 20%;
+  z-index: 1
+}
+
+.select__cars-list--visible {
+  display: block;
+  width: 100%
+}
+
+.select__cars-list-item {
+  border: 1px solid #000;
+  overflow: hidden;
+  border-radius: 6px;
+  border-bottom: 0;
+  padding: 1.3rem 2rem;
+  cursor: pointer
+}
+
+.select__cars-list-item:first-child {
+  border-radius: 6px 6px 0 0
+}
+
+.select__cars-list-item:last-child {
+  border-bottom: 1px solid #000;
+  border-radius: 0 0 6px 6px
+}
+
+.select__cars-list-item:hover {
+  background-color: #f0f8ff
+}
+
+.select__input-price,
+.select__input-guarantie {
+  z-index: -1;
+  position: absolute;
+  visibility: hidden
+}
+
+.footer {
+  background-color: #014493;
+  width: 100%
+}
+
+.footer a {
+  color: #fff
+}
+
+.footer__inner {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  display: flex;
+  align-items: center
+}
+
+.footer__logo {
+  padding: 4.2rem 0 4.8rem 0
+}
+
+.footer__logo img {
+  max-width: 18.8rem
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 100%;
+  align-items: center;
+  margin-left: 9.2rem
+}
+
+.footer__menu {
+  position: relative
+}
+
+.footer__menu-list {
+  display: flex;
+  gap: 5rem
+}
+
+.footer__social {
+  display: flex;
+  position: relative;
+  line-height: 3.2rem
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 1.6rem
+}
+
+.footer__social-link {
+  width: 3.6rem;
+  height: 3.6rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%
+}
+
+.footer__email-link {
+  margin-right: 4rem
+}
+
+.footer__phone-link {
+  position: absolute;
+  bottom: -2rem;
+  left: 0
+}
+
+.footer .footer__menu-link--bottom {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #4f89cd;
+  position: absolute;
+  top: 4.2rem
+}
+
+@media(max-width: 1200px) {
+  .header__logo img {
+    max-width: 16rem
+  }
+
+  .header__content {
+    margin-left: 7rem
+  }
+
+  .header__menu-list {
+    gap: 4rem
+  }
+
+  .header__email-link {
+    margin-right: 3rem
+  }
+
+  .intro {
+    background-position: bottom
+  }
+
+  .intro__inner {
+    padding: 9.2rem 0 15.4rem 0
+  }
+
+  .intro__text {
+    max-width: 43rem
+  }
+
+  .intro__text br {
+    display: none
+  }
+
+  .intro-contacts {
+    background-size: 50%
+  }
+
+  .intro-contacts__text-block {
+    max-width: 55rem
+  }
+
+  .intro-contacts__text-block br {
+    display: none
+  }
+
+  .rates__cards,
+  .cars__cards {
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .rates__cards-item,
+  .rates__cards-viewall {
+    flex: 0 1 29rem;
+    justify-content: center
+  }
+
+  .rates__item-image img {
+    width: 100%
+  }
+
+  .footer__logo img {
+    max-width: 16rem
+  }
+
+  .footer__content {
+    margin-left: 7rem
+  }
+
+  .footer__menu-list {
+    gap: 4rem
+  }
+
+  .footer__email-link {
+    margin-right: 3rem
+  }
+}
+
+@media(max-width: 1100px) {
+  .header__logo img {
+    max-width: 14rem
+  }
+
+  .header__content {
+    margin-left: 6rem
+  }
+
+  .header__menu,
+  .header__email-link {
+    font-size: 1.4rem
+  }
+
+  .advantages__content {
+    gap: 5.5rem
+  }
+
+  .terms__caption {
+    font-size: 2rem
+  }
+
+  .feedback__image {
+    margin-right: 1.6rem
+  }
+
+  .footer__logo img {
+    max-width: 14rem
+  }
+
+  .footer__content {
+    margin-left: 6rem
+  }
+
+  .footer__menu,
+  .footer__email-link {
+    font-size: 1.4rem
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header__content {
+    justify-content: flex-end;
+    gap: 4rem
+  }
+
+  .header__menu {
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #014493;
+    padding: 8rem 2.7rem 0 0;
+    display: flex;
+    justify-content: flex-end;
+    transition: all .4s ease;
+    overflow: auto
+  }
+
+  .header__menu.active {
+    left: 0%
+  }
+
+  .header__menu-list {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4rem;
+    padding: 3rem 0
+  }
+
+  .header__list-item {
+    padding: 0
+  }
+
+  .header__menu {
+    font-size: 3rem
+  }
+
+  .advantages__content {
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .advantages__item {
+    flex: 0 0 40%
+  }
+
+  .autopark__content {
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .autopark__item {
+    flex: 0 1 45%
+  }
+
+  .autopark__item-image img {
+    width: 100%
+  }
+
+  .autopark__item-params {
+    font-size: 2.2rem;
+    line-height: 3.2rem
+  }
+
+  .param-left--title {
+    font-size: 3rem;
+    line-height: 3.8rem
+  }
+
+  .autopark__item-price {
+    font-size: 2.8rem;
+    line-height: 3.5rem
+  }
+
+  .autopark__item-price--num {
+    font-size: 3.6rem;
+    line-height: 4.6rem
+  }
+
+  .autopark__item-class {
+    font-size: 1.8rem;
+    line-height: 2.6rem
+  }
+
+  .terms__caption {
+    font-size: 2.2rem
+  }
+
+  .terms__content {
+    flex-wrap: wrap;
+    gap: 2rem
+  }
+
+  .terms__item {
+    flex: 1 1 100%
+  }
+
+  .feedback__image {
+    flex: 0 0 9.4rem;
+    margin-right: 2.6rem
+  }
+
+  .feedback__content {
+    grid-template-columns: repeat(2, minmax(29rem, 50%));
+    gap: 2rem 3rem
+  }
+
+  .footer__inner {
+    padding-bottom: 4rem
+  }
+
+  .footer__content {
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-end
+  }
+
+  .footer__menu-list {
+    padding: 3rem 0 4rem 0
+  }
+
+  .footer .footer__menu-link--bottom {
+    top: 6rem;
+    left: 25%;
+    display: inline-block;
+    width: 100%
+  }
+
+  .contacts__inner {
+    flex-direction: column-reverse
+  }
+
+  .contacts__form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 62rem
+  }
+
+  .contacts__info {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 0
+  }
+
+  .plans__item-title {
+    padding: 2rem 0 2rem 2rem
+  }
+
+  .plans-row {
+    padding: 2rem 1rem 2rem 2rem
+  }
+
+  .plans__econom-head,
+  .plans__middle-head,
+  .plans__business-head,
+  .plans__cross-head,
+  .plans__minivan-head,
+  .plans__car-name,
+  .plans__car-year,
+  .plans__car-days {
+    font-size: 1.6rem;
+    line-height: 2rem
+  }
+
+  .cars-autopark__content {
+    grid-template-columns: repeat(4, minmax(14rem, 25%))
+  }
+
+  .cars-autopark__item-param .param-left--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .plans__econom-head,
+  .plans__middle-head,
+  .plans__business-head,
+  .plans__cross-head,
+  .plans__minivan-head,
+  .plans__car-name,
+  .plans__car-year,
+  .plans__car-days {
+    font-size: 1.4rem;
+    line-height: 2rem
+  }
+
+  .cars__cards-item,
+  .cars__cards-viewall {
+    flex: 0 1 30rem
+  }
+
+  .cars-autopark__item-param .param-left--title {
+    font-size: 1.6rem;
+    line-height: 2.2rem
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__inner {
+    padding: 7rem 0 12rem 0
+  }
+
+  .intro__location {
+    flex-wrap: wrap
+  }
+
+  .intro__location-list {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem
+  }
+
+  .intro__title {
+    font-size: 3rem;
+    line-height: 3.8rem
+  }
+
+  .intro__subtitle {
+    font-size: 2rem;
+    line-height: 2.8rem
+  }
+
+  .intro-contacts__location {
+    flex-wrap: wrap
+  }
+
+  .intro-contacts__location-list {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem
+  }
+
+  .intro__title {
+    font-size: 3rem;
+    line-height: 3.8rem
+  }
+
+  .advantages__content {
+    gap: 4.5rem
+  }
+
+  .autopark__item-params {
+    font-size: 2rem;
+    line-height: 3rem
+  }
+
+  .param-left--title {
+    font-size: 2.4rem;
+    line-height: 3rem
+  }
+
+  .autopark__item-price {
+    font-size: 2.4rem;
+    line-height: 3rem
+  }
+
+  .autopark__item-price--num {
+    font-size: 3.2rem;
+    line-height: 4rem
+  }
+
+  .autopark__item-class {
+    font-size: 1.6rem;
+    line-height: 2.2rem
+  }
+
+  .feedback__content {
+    grid-template-columns: repeat(1, minmax(29rem, 100%));
+    gap: 2rem 3rem
+  }
+
+  .form {
+    margin: 0 auto
+  }
+
+  .connect__inner {
+    padding: 4rem
+  }
+
+  .contacts__inner {
+    padding-bottom: 5.5rem
+  }
+
+  .intro-contacts__inner {
+    padding: 4.7rem 0 0 0
+  }
+
+  .plans__title {
+    margin-bottom: 4rem
+  }
+
+  .intro-plans__inner,
+  .intro-cars__inner {
+    padding: 4.7rem 0 4.7rem 0
+  }
+
+  .plans__item-title {
+    font-size: 1.8rem;
+    line-height: 2.4rem
+  }
+
+  .plans-row {
+    display: grid;
+    grid-template-columns: minmax(14rem, 32rem) minmax(9rem, 20rem) repeat(6, minmax(6rem, 12rem));
+    grid-column-gap: .5rem;
+    -moz-column-gap: .5rem;
+    column-gap: .5rem
+  }
+
+  .plans__econom-head,
+  .plans__middle-head,
+  .plans__business-head,
+  .plans__cross-head,
+  .plans__minivan-head,
+  .plans__car-name,
+  .plans__car-year,
+  .plans__car-days {
+    font-size: 1.2rem;
+    line-height: 1.8rem
+  }
+
+  .cars__cards-item,
+  .cars__cards-viewall {
+    flex: 0 1 45rem
+  }
+
+  .cars__item-image {
+    float: left
+  }
+
+  .cars__cards-viewall {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    min-height: 17.4rem;
+    padding: 3.2rem 2rem
+  }
+
+  .cars__cards-viewall--img {
+    margin-bottom: 0rem
+  }
+
+  .cars-autopark__content {
+    grid-template-columns: repeat(3, minmax(14rem, 33%))
+  }
+
+  .cars-autopark__item-param .param-left--title {
+    font-size: 1.8rem;
+    line-height: 2.5rem
+  }
+
+  .button.cars-autopark__button {
+    height: 4rem;
+    font-size: 1.6rem
+  }
+}
+
+@media screen and (max-width: 692px) {
+
+  .plans__econom,
+  .plans__middle,
+  .plans__business,
+  .plans__cross,
+  .plans__minivan {
+    overflow-x: scroll
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    padding: 0 1rem
+  }
+
+  .text__content {
+    font-size: 1.6rem;
+    line-height: 2rem
+  }
+
+  .button {
+    padding: 0 4rem
+  }
+
+  .title {
+    font-size: 2.8rem;
+    line-height: 3.8rem
+  }
+
+  .chunk-title {
+    font-size: 3.4rem;
+    line-height: 4rem
+  }
+
+  .header__logo img {
+    max-width: 12rem
+  }
+
+  .header__content {
+    margin-left: 0
+  }
+
+  .header__social {
+    flex-direction: column-reverse
+  }
+
+  .header__email-link {
+    margin: 1rem 0 0 0
+  }
+
+  .header__social-link {
+    width: 3rem;
+    height: 3rem
+  }
+
+  .intro__button {
+    height: 4rem
+  }
+
+  .advantages__item {
+    flex: 0 0 100%
+  }
+
+  .advantages__content {
+    gap: 3.5rem
+  }
+
+  .autopark__item {
+    flex: 0 1 80%
+  }
+
+  .autopark__link a::after {
+    width: 17.6rem;
+    left: -1rem
+  }
+
+  .terms__caption {
+    font-size: 1.8rem;
+    margin-bottom: 2rem
+  }
+
+  .terms .container {
+    padding: 0 3rem
+  }
+
+  .form__button {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem
+  }
+
+  form input,
+  textarea {
+    padding: .8rem .8rem .8rem 1.2rem
+  }
+
+  .form {
+    padding: 4rem 5rem
+  }
+
+  .footer__inner {
+    flex-direction: column-reverse
+  }
+
+  .footer__logo {
+    padding: 4.2rem 0 0 0
+  }
+
+  .footer__social {
+    width: 100%;
+    justify-content: center
+  }
+
+  .footer__phone-link {
+    left: 5.5rem
+  }
+
+  .contacts__form {
+    padding: 4rem 5rem
+  }
+
+  .plans__item {
+    margin-top: 4rem
+  }
+
+  .plans-row {
+    grid-template-columns: minmax(10rem, 32rem) minmax(9rem, 20rem) repeat(6, minmax(6rem, 12rem))
+  }
+
+  .cars-autopark__content {
+    grid-template-columns: repeat(2, minmax(14rem, 24rem));
+    justify-content: center
+  }
+
+  .cars-autopark__item-price {
+    font-size: 1.6rem
+  }
+
+  .cars-autopark__item-price--num {
+    font-size: 2.4rem
+  }
+}
+
+@media screen and (max-width: 551px) {
+  .form__title {
+    font-size: 2.2rem;
+    line-height: 3rem
+  }
+
+  .form {
+    padding: 3rem 4rem
+  }
+
+  .form__descr {
+    font-size: 1rem;
+    line-height: 1.4rem
+  }
+
+  .form__descr br {
+    display: none
+  }
+
+  .footer__menu-list {
+    gap: 2rem
+  }
+
+  .footer__phone-link {
+    left: 2.5rem
+  }
+
+  .contacts__info {
+    margin-bottom: 3rem
+  }
+
+  .contacts__info {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem
+  }
+
+  .contacts__info-text {
+    font-size: 2rem;
+    line-height: 2.4rem
+  }
+
+  .contacts__info-worktime {
+    margin-bottom: 2rem
+  }
+
+  .contacts__form {
+    padding: 3rem 4rem
+  }
+
+  .plans__item {
+    margin-top: 3rem
+  }
+
+  .cars-autopark__item-param .param-left--title {
+    font-size: 1.6rem;
+    line-height: 2.2rem
+  }
+
+  .popup__wrapper,
+  .rent-popup__wrapper {
+    width: 30rem
+  }
+
+  .popup__window,
+  .rent-popup__window {
+    padding: 3rem 2.2rem
+  }
+
+  .popup__title,
+  .rent-popup__title {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem
+  }
+
+  .rent-popup__calculate-car {
+    font-size: 1.8rem
+  }
+
+  .popup__classes-button,
+  .popup__cars-button {
+    height: 4rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem
+  }
+
+  .popup__calculate-day-price,
+  .popup__calculate-day-amount,
+  .popup__calculate-guarantie,
+  .rent-popup__calculate-day-price,
+  .rent-popup__calculate-day-amount,
+  .rent-popup__calculate-guarantie {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-left: 0
+  }
+
+  .popup__calculate-button,
+  .popup-rent__form-button {
+    margin: 1rem 0;
+    height: 3rem;
+    font-size: 1.4rem;
+    line-height: 2rem
+  }
+
+  .popup__calculate-total,
+  .rent-popup__calculate-total {
+    font-size: 1.6rem;
+    line-height: 2.7rem
+  }
+
+  .popup-rent__form-name,
+  .popup-rent__form-phone {
+    height: 3rem
+  }
+
+  .popup-rent__form-name input,
+  .popup-rent__form-phone input {
+    padding: .5rem 1rem
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .inner {
+    padding: 3rem 0
+  }
+
+  .title {
+    font-size: 2.4rem;
+    line-height: 3.2rem
+  }
+
+  .header__logo img {
+    max-width: 10rem
+  }
+
+  .header__social {
+    display: none
+  }
+
+  .intro__inner {
+    padding: 4rem 0 5rem 0
+  }
+
+  .intro__location {
+    margin-bottom: 2.6rem
+  }
+
+  .intro__location-list {
+    gap: 1rem;
+    font-size: 1.2rem
+  }
+
+  .connect__inner {
+    padding: 2rem
+  }
+
+  .form {
+    padding: 3rem 2rem 3rem 2rem
+  }
+
+  .intro__location {
+    margin-bottom: 2.6rem
+  }
+
+  .intro-contacts__location-list {
+    gap: 1rem;
+    font-size: 1.2rem
+  }
+
+  .autopark__item {
+    flex: 0 1 90%
+  }
+
+  .contacts__form {
+    padding: 3rem 2rem 3rem 2rem
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2.6rem
+  }
+
+  .header__social {
+    display: none
+  }
+
+  .autopark__item {
+    flex: 0 1 100%
+  }
+
+  .footer__menu,
+  .footer__email-link {
+    width: 100%
+  }
+
+  .footer__menu-list {
+    flex-direction: column;
+    align-items: center
+  }
+
+  .footer .footer__menu-link--bottom {
+    top: 18rem;
+    left: 16%;
+    width: 70%
+  }
+
+  .footer__phone-link {
+    left: 0
+  }
+
+  .cars-autopark__item-price {
+    font-size: 1.4rem
+  }
+
+  .cars-autopark__item-price--num {
+    font-size: 2rem
+  }
+
+  .cars-autopark__item-params {
+    font-size: 1.2rem
+  }
+}
+
+.burger {
+  display: none;
+  z-index: 2
+}
+
+@media(max-width: 991px) {
+  .burger {
+    display: block;
+    cursor: pointer;
+    padding: .7rem
+  }
+
+  .burger__button {
+    position: relative;
+    width: 5rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s
+  }
+
+  .burger__button-line {
+    display: inline-block;
+    height: .3rem;
+    width: 90%;
+    background-color: #fff;
+    border-radius: .3rem;
+    transition: all .4s
+  }
+
+  .burger__button.active span {
+    transform: scale(0)
+  }
+
+  .burger__button.active::before {
+    transform: rotate(45deg);
+    top: 1.9rem
+  }
+
+  .burger__button.active::after {
+    transform: rotate(-45deg);
+    bottom: 1.8rem
+  }
+
+  .burger__button::before,
+  .burger__button::after {
+    content: "";
+    position: absolute;
+    height: .3rem;
+    width: 90%;
+    background-color: #fff;
+    border-radius: .3rem;
+    transition: all .5s
+  }
+
+  .burger__button::after {
+    bottom: .6rem
+  }
+
+  .burger__button::before {
+    top: .6rem
+  }
+}
+
+@media(max-width: 591px) {
+  .burger__button-line {
+    width: 80%
+  }
+
+  .burger__button::after {
+    bottom: .8rem;
+    width: 80%
+  }
+
+  .burger__button::before {
+    top: .8rem;
+    width: 80%
+  }
+}
+
+@media(max-width: 375px) {
+  .burger__button-line {
+    width: 70%
+  }
+
+  .burger__button::after {
+    bottom: 1rem;
+    width: 70%
+  }
+
+  .burger__button::before {
+    top: 1rem;
+    width: 70%
+  }
+}
 
 /*# sourceMappingURL=style.calculator.02ef34fef4552845f3b8.css.map*/
