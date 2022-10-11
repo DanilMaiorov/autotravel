@@ -1,2 +1,0 @@
-!function(){"use strict";console.log("module"),console.log("BURGER");console.log({name:"Danil",age:"29",language:"JavaScript",framework:"Vue.js"})}();
-//# sourceMappingURL=index.faa9c7bf61d4a1d3c54a.js.map
