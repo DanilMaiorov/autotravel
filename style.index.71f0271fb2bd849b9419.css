@@ -260,7 +260,7 @@ textarea::placeholder {
 }
 
 .intro {
-  background-image: url(assets/70cb9a0027b87ea8f4f2.png);
+  background-image: url('images/intro-bg.png');
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover
@@ -524,7 +524,7 @@ textarea::placeholder {
   height: .1rem;
   background-color: #adadad;
   bottom: -0.6rem;
-  left: -0.5rem
+  left: -1rem
 }
 
 .terms .container {
@@ -638,7 +638,7 @@ textarea::placeholder {
 .connect__inner {
   border-radius: 1rem;
   padding: 7rem 0 7rem 0;
-  background-image: url(assets/764bf57b5036e1a49fd1.png);
+  background-image: url('./images/connect-bg.png');
   background-repeat: no-repeat;
   background-size: cover
 }
@@ -2080,17 +2080,20 @@ textarea::placeholder {
   }
 
   .popup__wrapper,
-  .rent-popup__wrapper {
+  .rent-popup__wrapper,
+  .info-popup__wrapper {
     width: 30rem
   }
 
   .popup__window,
-  .rent-popup__window {
+  .rent-popup__window,
+  .info-popup__window {
     padding: 3rem 2.2rem
   }
 
   .popup__title,
-  .rent-popup__title {
+  .rent-popup__title,
+  .info-popup__title {
     font-size: 2rem;
     line-height: 2.8rem;
     margin-bottom: 2rem
@@ -2262,4 +2265,4 @@ textarea::placeholder {
   }
 }
 
-/*# sourceMappingURL=style.index.1768397a1f16314046cf.css.map*/
+/*# sourceMappingURL=style.index.71f0271fb2bd849b9419.css.map*/
