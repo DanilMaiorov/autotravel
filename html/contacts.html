@@ -10,193 +10,218 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    
-    <header class="header" id="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__logo">
-            <a href="../index.html">
-              <img src="../images/header-logo.png" alt="auto_travel_logo">
-            </a>
-          </div>
-          <div class="header__content">
-            <nav class="header__menu">
-              <ul class="header__menu-list">
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="./cars.html">Автомобили</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="../index.html">Тарифы</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="../index.html">Условия аренды</a>
-                </li>
-                <li class="header__menu-item">
-                  <a class="header__menu-link" href="../index.html">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="header__social">
-              <a href="mailto:hello@monomo.com" class="header__email-link" target="_blank">hello@monomo.com</a>
-              <ul class="header__social-list">
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link" target="_blank">
-                    <img src="../images/fb-icon.png" alt="vimeo-icon">
-                  </a>
-                </li>
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link" target="_blank">
-                    <img src="../images/twitter-icon.png" alt="twitter-icon">
-                  </a>
-                </li>
-                <li class="header__social-item">
-                  <a href="#" class="header__social-link" target="_blank">
-                    <img src="../images/vimeo-icon.png" alt="facebook-icon">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="burger">
-              <div class="burger__button">
-                <span class="burger__button-line"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
 
-    <main class="main">
-
-      <section class="intro-contacts">
-        <div class="container">
-          <div class="intro-contacts__inner inner">
-            <div class="intro-contacts__location">
-              <div class="intro-contacts__location-title">Мы работаем здесь:</div>
-              <ul class="intro-contacts__location-list">
-                <li class="intro-contacts__location-item">Владимир</li>
-                <li class="intro-contacts__location-item">Иркутск</li>
-                <li class="intro-contacts__location-item">Чита</li>
-                <li class="intro-contacts__location-item">У-УДЭ</li>
-              </ul>
-            </div>
-            <h1 class="intro-contacts__title chunk-title">Контакты</h1>
+	<div class="wrapper">
+		<!-- HEADER -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<!-- header logo left side -->
+					<div class="header__logo">
+						<a href="../index.html">
+							<img src="../images/header-logo.png" alt="auto_travel_logo">
+						</a>
+					</div>
+					<!-- header content right side -->
+					<div class="header__content">
+						<!-- header menu -->
+						<nav class="header__menu">
+							<ul class="header__menu-list">
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="./cars.html">Автомобили</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="./plans.html">Тарифы</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="../index.html">Условия аренды</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="../index.html">Отзывы</a>
+								</li>
+								<li class="header__menu-item">
+									<a class="header__menu-link" href="./contacts.html">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- header btn -->
+						<div class="header__btn">
+							<button class="button header__button">Связаться с нами</button>
+						</div>
+						<!-- burger -->
+						<div class="burger">
+							<div class="burger__button">
+								<span class="burger__button-line">
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- MAIN -->
+		<main class="main">
+			<!-- CONTACTS -->
+			<section class="intro-contacts">
+				<div class="container">
+					<div class="intro-contacts__inner inner">
+						<!-- contacts location -->
+						<div class="intro-contacts__location">
+							<!-- intro location title -->
+							<div class="intro-contacts__location-title">Мы работаем здесь:</div>
+							<ul class="intro-contacts__location-list">
+								<li class="intro-contacts__location-item">
+									Владимир
+								</li>
+								<li class="intro-contacts__location-item">
+									Иркутск
+								</li>
+								<li class="intro-contacts__location-item">
+									Чита
+								</li>
+								<li class="intro-contacts__location-item">
+									У-УДЭ
+								</li>
+							</ul>
+						</div>
+						<!-- contacts title -->
+						<h1 class="intro-contacts__title chunk-title">
+							Контакты
+						</h1>
+						<!-- contacts text -->
             <div class="intro-contacts__text-block">
-              <div class="intro-contacts__text text__content">Наша организация оказывает услуги по аренде автомобилей
-                для разных целей.<br>Арендатор с лёгкостью может оформить аренду, предоставив нужные документы<br>и
-                подходя под условия аренды.</div>
-              <div class="intro-contacts__text text__content">Свяжитесь с нами для оформления аренды или чтобы задать
-                вопросы.</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="contacts">
-        <div class="container">
-          <div class="contacts__inner">
-            <form class="contacts__form" id="form-contacts" action="#">
-              <h2 class="contacts__form-title form__title">Обратная связь</h2>
-              <div class="contacts__form-data-field">
-                <input class="form__input-name contacts-form-name" placeholder="Имя">
-                <input class="form__input-phone contacts-form-phone" type="tel" placeholder="Телефон">
-                <textarea class="form__textarea contacts-form-textarea" name="" id="" cols="20" rows="10"
-                  placeholder="Комментарий"></textarea>
-                <button class="button form__button contacts__form-button" type="submit">Отправить</button>
-                <span class="form__descr contacts__form-descr">Нажимая на кнопку "Отправить" Вы соглашаетесь<br>на
-                  обработку
-                  персональных данных</span>
+              <div class="intro-contacts__text text__content">
+                Наша организация  оказывает услуги по аренде автомобилей для разных целей. <br> Арендатор с лёгкостью может оформить аренду, предоставив нужные документы <br> и подходя под условия аренды.
               </div>
-            </form>
+              <div class="intro-contacts__text text__content">
+                Свяжитесь с нами для оформления аренды или чтобы задать вопросы.
+              </div>
+            </div>
+					</div>
+				</div>
+			</section>
+			<!-- CONTACTS -->
+			<section class="contacts">
+				<div class="container">
+					<div class="contacts__inner">
+						<!-- form -->
+						<form class="contacts__form" id="form-contacts" action="#">
+							<h2 class="contacts__form-title form__title">
+								Обратная связь
+							</h2>
+							<div class="contacts__form-data-field">
+								<input class="form__input-name contacts-form-name" type="text" placeholder="Имя">
+								<input class="form__input-phone contacts-form-phone" type="tel" placeholder="Телефон">
+								<textarea class="form__textarea contacts-form-textarea" name="" id="" cols="20" rows="10" placeholder="Комментарий"></textarea>
+								<button class="button form__button contacts__form-button" type="submit">Отправить</button>
+								<span class="form__descr contacts__form-descr">Нажимая на кнопку "Отправить" Вы соглашаетесь <br> на обработку персональных
+									данных</span>
+							</div>
+						</form>
             <div class="contacts__info">
               <ul class="contacts__info-list">
                 <li class="contacts__info-phone">
-                  <img class="contacts__info-image" src="../images/phone-icon.png" alt="phone-icon">
-                  <span class="contacts__info-text">+7(950)054-54-32</span>
+                  <span class="contacts__info-text">
+                    г.Улан-удэ, ул. Бабушкина 34, 2 этаж, офис 209
+                  </span>
+									<span class="contacts__info-text">
+                    +7(950)535-44-73
+                  </span>
+									<span class="contacts__info-text">
+                    autotravel03@mail.ru
+                  </span>
                 </li>
-                <li class="contacts__info-email">
-                  <img class="contacts__info-image" src="../images/letter-icon.png" alt="letter-icon">
-                  <span class="contacts__info-text">hello@monomo.com</span>
+                <li class="contacts__info-phone">
+                  <span class="contacts__info-text">
+                    г.Иркутск, ул. Ширямова 2/4, офис 5
+                  </span>
+									<span class="contacts__info-text">
+                    +7(950)054-54-32, +7(395)262-54-54
+                  </span>
+									<span class="contacts__info-text">
+                    autotravel138@yandex.ru
+                  </span>
                 </li>
-                <li class="contacts__info-worktime">
-                  <img class="contacts__info-image contacts__info-image--phone" src="../images/clock-icon.png"
-                    alt="clock-icon">
-                  <div class="contacts__info-text">
-                    <span class="contacts__info-text--span">Пн-Пт с 9:00 до 18:00
-                    </span>
-                    <span class="contacts__info-text--span">Сб с 10:00 до 15:00 </span>
-                    <span class="contacts__info-text--span">Вс выходной</span>
-                  </div>
+                <li class="contacts__info-phone">
+                  <span class="contacts__info-text">
+                    г.Чита, ул. Столяров 8Б, офис 3
+                  </span>
+									<span class="contacts__info-text">
+                    +7(914)808-54-44, +7(914)855-54-44
+                  </span>
+									<span class="contacts__info-text">
+                    autotravel75@mail.ru
+                  </span>
                 </li>
               </ul>
               <ul class="contacts__social-list">
                 <li class="contacts__social-list-item">
-                  <img src="../images/vimeo-white-icon.png" alt="vimeo-icon">
+									<a href="https://t.me/AutoTravell">
+										<img src="../images/telegram-icon.png" alt="telegram-icon">
+									</a>
+                  
                 </li>
                 <li class="contacts__social-list-item">
-                  <img src="../images/twitter-white-icon.png" alt="twitter-icon">
-                </li>
+									<a href="https://vk.com/avtovykup_ulanude">
+										<img src="../images/vk-icon.png" alt="vk-icon">
+										<span class="contacts__social-list-item--text">Улан-удэ</span>
+									</a>
+								</li>
                 <li class="contacts__social-list-item">
-                  <img src="../images/fb-white-icon.png" alt="facebook-icon">
+									<a href="https://vk.com/avtovykup_ulanude">
+										<img src="../images/vk-icon.png" alt="vk-icon">
+										<span class="contacts__social-list-item--text">Иркутск</span>
+									</a>
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<!-- footer logo -->
+					<div class="footer__logo">
+						<a href="#header">
+							<img src="../images/header-logo.png" alt="auto_travel_logo">
+						</a>
+					</div>
+					<!-- footer content -->
+					<div class="footer__content">
+						<!-- footer menu -->
+						<nav class="footer__menu">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="./cars.html">Автомобили</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="./plans.html">Тарифы</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="../index.html">Условия аренды</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="../index.html">Отзывы</a>
+								</li>
+								<li class="footer__menu-item">
+									<a class="footer__menu-link" href="./contacts.html">Контакты</a>
+								</li>
+							</ul>
+							<a class="footer__menu-link--bottom" href="#" target="_blank">Политика конфиденциальности</a>
+						</nav>
+						<!-- footer btn -->
+						<div class="header__btn">
+							<button class="button header__button">Связаться с нами</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
 
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer__inner">
-          <div class="footer__logo">
-            <a href="#header">
-              <img src="../images/header-logo.png" alt="auto_travel_logo">
-            </a>
-          </div>
-          <div class="footer__content">
-            <nav class="footer__menu">
-              <ul class="footer__menu-list">
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="#rates" target="_blank">Автомобили</a>
-                </li>
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="#rates" target="_blank">Тарифы</a></li>
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="#terms" target="_blank">Условия
-                    аренды</a>
-                  </li>
-                <li class="footer__menu-item">
-                  <a class="footer__menu-link" href="#feedback" target="_blank">Отзывы</a>
-                </li>
-              </ul>
-              <a class="footer__menu-link--bottom" href="#" target="_blank">Политика конфиденциальности</a>
-            </nav>
-            <div class="footer__social">
-              <a href="mailto:hello@monomo.com" class="footer__email-link" target="_blank">hello@monomo.com</a>
-              <a href="tel:+79229227722" class="footer__phone-link" target="_blank">+7-922-922-77-22</a>
-              <ul class="footer__social-list">
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <img src="../images/vimeo-icon.png" alt="vimeo-icon"></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <img src="../images/twitter-icon.png" alt="twitter-icon"></a>
-                </li>
-                <li class="footer__social-item">
-                  <a href="#" class="footer__social-link" target="_blank">
-                    <img src="../images/fb-icon.png" alt="facebook-icon"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
 </body>
 
 </html>

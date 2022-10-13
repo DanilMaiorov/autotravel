@@ -252,29 +252,11 @@ textarea::placeholder {
   color: #fff
 }
 
-.header__social {
-  display: flex;
-  align-items: center
-}
-
-.header__social-list {
-  display: flex;
-  gap: 1.6rem
-}
-
-.header__email-link {
-  margin-right: 4rem;
-  color: #fff
-}
-
-.header__social-link {
-  width: 3.6rem;
-  height: 3.6rem;
+.header__button {
+  padding: .8rem 2.5rem;
   background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%
+  color: #014493;
+  font-size: 1.6 rem
 }
 
 .intro {
@@ -663,35 +645,8 @@ textarea::placeholder {
   gap: 5rem
 }
 
-.footer__social {
-  display: flex;
-  position: relative;
-  line-height: 3.2rem
-}
-
-.footer__social-list {
-  display: flex;
-  gap: 1.6rem
-}
-
-.footer__social-link {
-  width: 3.6rem;
-  height: 3.6rem;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%
-}
-
-.footer__email-link {
-  margin-right: 4rem
-}
-
-.footer__phone-link {
-  position: absolute;
-  bottom: -2rem;
-  left: 0
+.footer__menu-item {
+  text-align: center
 }
 
 .footer .footer__menu-link--bottom {
@@ -1119,6 +1074,10 @@ textarea::placeholder {
   .footer__email-link {
     font-size: 1.4rem
   }
+
+  .contacts__info {
+    margin-left: 5rem
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1246,7 +1205,7 @@ textarea::placeholder {
 
   .footer .footer__menu-link--bottom {
     top: 6rem;
-    left: 25%;
+    left: 0;
     display: inline-block;
     width: 100%
   }
@@ -1263,9 +1222,21 @@ textarea::placeholder {
 
   .contacts__info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 3rem;
     margin-left: 0
+  }
+
+  .contacts__info-list {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+  }
+
+  .contacts__social-list {
+    margin-bottom: 2rem
   }
 
   .plans__item-title {
@@ -1405,6 +1376,14 @@ textarea::placeholder {
     padding: 4rem
   }
 
+  .footer__menu-list {
+    margin-left: 2rem
+  }
+
+  .footer .footer__menu-link--bottom {
+    left: 2rem
+  }
+
   .contacts__inner {
     padding-bottom: 5.5rem
   }
@@ -1526,17 +1505,9 @@ textarea::placeholder {
     margin-left: 0
   }
 
-  .header__social {
-    flex-direction: column-reverse
-  }
-
-  .header__email-link {
-    margin: 1rem 0 0 0
-  }
-
-  .header__social-link {
-    width: 3rem;
-    height: 3rem
+  .header__button {
+    font-size: 1.2rem;
+    padding: .5rem 1rem
   }
 
   .intro__button {
@@ -1593,17 +1564,25 @@ textarea::placeholder {
     padding: 4.2rem 0 0 0
   }
 
-  .footer__social {
-    width: 100%;
-    justify-content: center
+  .footer__menu-list {
+    margin-left: 0
   }
 
-  .footer__phone-link {
-    left: 5.5rem
+  .footer .footer__menu-link--bottom {
+    left: 0
+  }
+
+  .footer .header__btn {
+    margin: 0 auto
   }
 
   .contacts__form {
     padding: 4rem 5rem
+  }
+
+  .contacts__info-text {
+    font-size: 1.8rem;
+    line-height: 2.2rem
   }
 
   .plans__item {
@@ -1663,11 +1642,6 @@ textarea::placeholder {
     flex-direction: column;
     align-items: center;
     gap: 1rem
-  }
-
-  .contacts__info-text {
-    font-size: 2rem;
-    line-height: 2.4rem
   }
 
   .contacts__info-worktime {
@@ -1767,10 +1741,6 @@ textarea::placeholder {
     max-width: 10rem
   }
 
-  .header__social {
-    display: none
-  }
-
   .intro__inner {
     padding: 4rem 0 5rem 0
   }
@@ -1786,6 +1756,12 @@ textarea::placeholder {
 
   .connect__inner {
     padding: 2rem
+  }
+
+  .footer__menu-link {
+    font-size: 1.1rem;
+    gap: 1.5rem;
+    white-space: nowrap
   }
 
   .form {
@@ -1808,6 +1784,11 @@ textarea::placeholder {
   .contacts__form {
     padding: 3rem 2rem 3rem 2rem
   }
+
+  .contacts__info-text {
+    font-size: 1.4rem;
+    line-height: 2rem
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1816,8 +1797,12 @@ textarea::placeholder {
     line-height: 2.6rem
   }
 
-  .header__social {
-    display: none
+  .header__btn {
+    margin-left: 1rem
+  }
+
+  .header__content {
+    gap: 2rem
   }
 
   .autopark__item {
@@ -1835,9 +1820,11 @@ textarea::placeholder {
   }
 
   .footer .footer__menu-link--bottom {
-    top: 18rem;
-    left: 16%;
-    width: 70%
+    font-size: 1.1rem;
+    white-space: nowrap;
+    top: 23rem;
+    left: -9%;
+    width: 100%
   }
 
   .footer__phone-link {
@@ -1857,4 +1844,4 @@ textarea::placeholder {
   }
 }
 
-/*# sourceMappingURL=style.cars.e21c63f58de7803dc786.css.map*/
+/*# sourceMappingURL=style.cars.bc718354134dd8b58b5d.css.map*/
